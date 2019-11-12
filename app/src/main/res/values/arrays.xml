@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="relative_time">
+    <item>1 hour ago</item>
+    <item>2 hour ago</item>
+    <item>3 hour ago</item>
+    <item>6 hour ago</item>
+    <item>12 hour ago</item>
+    <item>1 Day ago</item>
+    </string-array>
+
+</resources>

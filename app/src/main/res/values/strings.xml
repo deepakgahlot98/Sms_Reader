@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sms Reader</string>
+    <string name="see_more">See more..</string>
+    <string name="one_hour">1 hour ago</string>
+    <string name="two_hour">2 hour ago</string>
+    <string name="three_hour">3 hour ago</string>
+    <string name="six_hour">6 hour ago</string>
+    <string name="twelve_hour">12 hour ago</string>
+    <string name="one_hday">1 day ago</string>
+</resources>
