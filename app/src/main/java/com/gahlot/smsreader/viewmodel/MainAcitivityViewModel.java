@@ -16,6 +16,7 @@ import java.util.List;
 public class MainAcitivityViewModel extends AndroidViewModel {
 
     private MutableLiveData<List<Sms>> mSms;
+    private MutableLiveData<List<Sms>> mSmsheader;
     private SmsRepository mRepo;
 
     public MainAcitivityViewModel(@NonNull Application application) {
@@ -27,5 +28,9 @@ public class MainAcitivityViewModel extends AndroidViewModel {
 
     public LiveData<List<Sms>> getSms() {
         return mSms;
+    }
+
+    public LiveData<List<Sms>> getSectionList() {
+        return null;
     }
 }

@@ -15,12 +15,13 @@ import java.util.ListIterator;
 
 public class RelativeTime {
 
-    private static String onehour = "1 hour ago";
-    private static String twohour = "2 hour ago";
-    private static String threehour = "3 hour ago";
-    private static String sixhour = "6 hour ago";
-    private static String twelevehour = "12 hour ago";
-    private static String oneday = "1 day ago";
+    public static String recent = "minutes";
+    public static String onehour = "1 hour ago";
+    public static String twohour = "2 hours ago";
+    public static String threehour = "3 hours ago";
+    public static String sixhour = "6 hours ago";
+    public static String twelevehour = "12 hours ago";
+    public static String oneday = "Yesterday";
 
     public List<String> oneHourAgo = new ArrayList<>();
     public List<String> twoHourAgo = new ArrayList<>();

@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:background="@drawable/item_background"
     android:elevation="2.0dp"
     android:orientation="vertical">
 
@@ -24,12 +23,13 @@
 
     <TextView
         android:id="@+id/sms_header"
-        android:layout_width="268dp"
-        android:layout_height="24dp"
+        android:layout_width="150dp"
+        android:layout_height="23dp"
         android:background="@drawable/header_brackground"
-        android:text=""
         android:paddingTop="3dp"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent">
 
